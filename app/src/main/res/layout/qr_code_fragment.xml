@@ -16,14 +16,14 @@
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
         android:adjustViewBounds="true"
-        android:visibility="invisible"
+        tools:src="@drawable/qr"
         app:layout_constraintBottom_toTopOf="@+id/tvReqId"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView24"
         app:srcCompat="@drawable/qr" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnFinish"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -55,6 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
+        tools:text="42-02394-2930492"
         app:layout_constraintBottom_toTopOf="@+id/btnFinish"
         app:layout_constraintEnd_toEndOf="@+id/btnFinish"
         app:layout_constraintStart_toStartOf="@+id/btnFinish" />

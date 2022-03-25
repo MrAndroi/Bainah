@@ -52,7 +52,7 @@
             app:counterMaxLength="2"
             app:helperText="@string/car_code"
             app:helperTextEnabled="true"
-            app:helperTextTextColor="#4CAF50"
+            app:helperTextTextColor="@color/primaryColor"
             app:layout_constraintBottom_toBottomOf="@+id/textInputLayout2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textInputLayout2">
@@ -78,7 +78,7 @@
             app:counterMaxLength="6"
             app:helperText="@string/car_number"
             app:helperTextEnabled="true"
-            app:helperTextTextColor="#4CAF50"
+            app:helperTextTextColor="@color/primaryColor"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/view4"
             app:layout_constraintTop_toBottomOf="@+id/textView4">
@@ -140,6 +140,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
+            android:maxHeight="200dp"
             android:scaleType="fitXY"
             app:layout_constraintEnd_toEndOf="@+id/btnUploadCarsLicense"
             app:layout_constraintStart_toStartOf="@+id/btnUploadCarsLicense"

@@ -171,7 +171,6 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-
                 android:clickable="false"
                 android:focusable="false"
                 android:inputType="none"

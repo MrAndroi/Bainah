@@ -9,6 +9,13 @@
         <entry key="app/src/main/res/layout/home_fragment.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/image_preview_item.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/info_four_fragment.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/info_one_fragment.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/info_three_fragment.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/info_two_fragment.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/qr_code_fragment.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/report_inforamtion_fragment.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/scan_qr_fragment.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/service_item.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/settings_fragment.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/submit_report_fragment.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.36041666666666666" />

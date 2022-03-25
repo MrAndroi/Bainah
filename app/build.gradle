@@ -114,9 +114,6 @@ dependencies {
     //image picker
     implementation 'io.github.ParkSangGwon:tedimagepicker:1.2.2'
 
-    //progress dialog
-    implementation 'com.github.d-max:spots-dialog:1.1@aar'
-
     //Sdp's
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
 

@@ -84,6 +84,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
+            tools:text="Location: Irbid,Jordan"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/textView18"
             app:layout_constraintTop_toBottomOf="@+id/textView18" />
@@ -94,6 +95,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
+            tools:text="Street name: Jamaa Street"
             app:layout_constraintEnd_toStartOf="@+id/editAccicedntInformation"
             app:layout_constraintStart_toStartOf="@+id/tvAreaName"
             app:layout_constraintTop_toBottomOf="@+id/tvAreaName" />
@@ -104,6 +106,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
+            tools:text="Area name: Jamaa street"
             app:layout_constraintEnd_toStartOf="@+id/editAccicedntInformation"
             app:layout_constraintStart_toStartOf="@+id/tvAccidentTime"
             app:layout_constraintTop_toBottomOf="@+id/tvAccidentTime" />
@@ -113,6 +116,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            tools:text="Time: 2:30 pm"
             app:layout_constraintEnd_toEndOf="@+id/tvNumberOfCars"
             app:layout_constraintStart_toStartOf="@+id/tvNumberOfCars"
             app:layout_constraintTop_toBottomOf="@+id/tvNumberOfCars" />
@@ -122,6 +126,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            tools:text="Number of cars: 3"
             app:layout_constraintEnd_toEndOf="@+id/tvAccidentLocation"
             app:layout_constraintStart_toStartOf="@+id/tvAccidentLocation"
             app:layout_constraintTop_toBottomOf="@+id/tvAccidentLocation" />
@@ -143,6 +148,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            tools:text="License number: 2099002902"
             app:layout_constraintEnd_toEndOf="@+id/tvFullName"
             app:layout_constraintStart_toStartOf="@+id/tvFullName"
             app:layout_constraintTop_toBottomOf="@+id/tvFullName" />
@@ -166,6 +172,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
+            tools:text="Full name: Dana alomari"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/textView4"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -175,6 +182,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            tools:text="Birth date: 12/4/2000"
             app:layout_constraintEnd_toEndOf="@+id/tvLicenseNumber"
             app:layout_constraintStart_toStartOf="@+id/tvLicenseNumber"
             app:layout_constraintTop_toBottomOf="@+id/tvLicenseNumber" />
@@ -184,6 +192,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            tools:text="Civil number: 200039939933"
             app:layout_constraintEnd_toEndOf="@+id/tvDateOfBirth"
             app:layout_constraintStart_toStartOf="@+id/tvDateOfBirth"
             app:layout_constraintTop_toBottomOf="@+id/tvDateOfBirth" />
@@ -194,6 +203,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
+            tools:text="Gender: Female"
             app:layout_constraintEnd_toStartOf="@+id/editPersonalInformation"
             app:layout_constraintStart_toStartOf="@+id/tvIdNumber"
             app:layout_constraintTop_toBottomOf="@+id/tvIdNumber" />
@@ -279,7 +289,8 @@
             android:layout_marginEnd="16dp"
             android:adjustViewBounds="true"
             android:maxHeight="200dp"
-            android:scaleType="centerCrop"
+            android:scaleType="fitXY"
+            tools:src="@tools:sample/avatars"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />

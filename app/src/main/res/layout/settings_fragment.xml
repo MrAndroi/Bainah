@@ -81,6 +81,7 @@
             android:layout_marginEnd="8dp"
             android:textColor="#71A173"
             android:textSize="16sp"
+            tools:text="Arabic"
             app:layout_constraintBottom_toBottomOf="@+id/tvIdNumber"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/tvIdNumber" />
