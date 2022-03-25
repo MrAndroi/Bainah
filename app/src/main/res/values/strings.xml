@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name" translatable="false">Bainah</string>
+    <string name="welcome">Welcome</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="choose_language">Choose language</string>
+    <string name="cancel">Cancel</string>
+    <string name="welcome_two">Welcome to balagh application where you can submit a report or scan qr code or find emergency numbers.</string>
+    <string name="take_images">Take images</string>
+    <string name="start_taking_photo_for_the_cars_envolved_in_the_accident_y_have_to_provide_at_least_5_images_for_the_accident">Start taking photo for the cars envolved in the accident y have to provide at least 5 images for the accident</string>
+    <string name="upload_images">upload images</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="personal_information">Personal information</string>
+    <string name="exit">Exit</string>
+    <string name="full_name">Full name</string>
+    <string name="license_number">License number</string>
+    <string name="copy_it_from_your_license">Copy it from your license</string>
+    <string name="your_name">Your name like it\'s in you id</string>
+    <string name="type_it">Type it like this (18/10/1988)</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="id_number">ID number</string>
+    <string name="copy_id">Copy it from your id</string>
+    <string name="phone_number">Phone number</string>
+    <string name="gender">Gender</string>
+    <string name="upload_a_copy_of_the_driver_s_license">Upload A copy of the driver\'s license</string>
+    <string name="accsedent_information">Accsedent information</string>
+    <string name="please_tap_on_the_map_to_select_accident_location">Please tap on the map to select accident location.</string>
+    <string name="number_of_cars">Number of cars</string>
+    <string name="example_1">Example:(22/5/2021 - 5:45pm)</string>
+    <string name="the_date_and_time_of_the_accident">The date and time of the accident</string>
+    <string name="area_name">Area name</string>
+    <string name="area_2">The name of area</string>
+    <string name="street_name">Street name</string>
+    <string name="street">Street</string>
+    <string name="yes_no">Yes or no?</string>
+    <string name="have_you_ever_had_another_accident">Have you ever had another accident?</string>
+    <string name="car_information">Car information</string>
+    <string name="car_type">Car type</string>
+    <string name="car_type_2">Specify the type(Huenday,Honda,Toyota)</string>
+    <string name="car_code">Car code</string>
+    <string name="car_number">Your car number</string>
+    <string name="car_year">Car year</string>
+    <string name="example_3">Example(2000,1999,2018)</string>
+    <string name="car_color">Car color</string>
+    <string name="example_4">Example:(Red,Green,White)</string>
+    <string name="car_fuel">Car fuel</string>
+    <string name="fuel">Petrol,Diesel,Electric</string>
+    <string name="upload_a_copy_of_the_car_s_license">Upload A copy of the car\'s license</string>
+    <string name="your_request_has_been_successfully">Your request has been successfully submitted Now ask the participants to scan the following code to have their information added.</string>
+    <string name="finish">Finish</string>
+    <string name="accident_photos">Accident photos</string>
+    <string name="confirm_and_submit">Confirm and submit</string>
+    <string name="accident_location_jordan_irbid_22">Accident location: Jordan,Irbid,22</string>
+    <string name="street_name_jamma_stret">Street name: Jamma stret</string>
+    <string name="area_name_jamaa_street">Area name: Jamaa street</string>
+    <string name="date_of_accident_24_6_2021">Date of accident: 24/6/2021</string>
+    <string name="number_of_cars_2">Number of cars: </string>
+    <string name="car_year_2010">Car year: 2010</string>
+    <string name="car_type_tyoyta">Car type: Tyoyta</string>
+    <string name="car_color_red">Car color: Red</string>
+    <string name="car_number_18_2264">Car number: 18-2264</string>
+    <string name="car_fuel_petrol">Car fuel: Petrol</string>
+    <string name="license_number_548248">License number:548248</string>
+    <string name="full_name_sami_mohmmad_alshoraman">Full name : Sami mohmmad alshoraman</string>
+    <string name="date_of_birth_18_6_2000">Date of birth: 18/6/2000</string>
+    <string name="id_number_2000097777">ID number: 2000097777</string>
+    <string name="gender_male">Gender: Male</string>
+    <string name="language">Language</string>
+    <string name="share_application">Share application</string>
+    <string name="balagh_version_1_6_9">Balagh version 1.6.9</string>
+    <string name="this_application_is_powered_by">This application is powered by</string>
+    <string name="settings">Settings</string>
+    <string name="submit_a_report">Submit a report</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="sca_code">Scan Qr code</string>
+    <string name="emergent_nums">Emergency numbers</string>
+    <string name="submit_mew">Submit new accident report in few steps all you have to do is provide some images</string>
+    <string name="exitreport">Exit report?</string>
+    <string name="are_you_sure_1">Are you sure, you will lose all data here.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="done">Done</string>
+    <string name="please_select">Please select at least 5 images</string>
+    <string name="add_more">Add more images</string>
+    <string name="select_divers">Please select driver license</string>
+    <string name="setting_new">Setting new location</string>
+    <string name="selected_location">Selected location</string>
+    <string name="off_gps">Your GPS seems to be disabled, do you want to enable it?</string>
+    <string name="enable">Enable</string>
+    <string name="please_select_cars">Please select car license</string>
+    <string name="sending">Sending your report</string>
+    <string name="submit_report_2">Submit report?</string>
+    <string name="are_you_sure_2">Are you sure, you can\'t update the information after this step.</string>
+    <string name="about_this_app">About this app</string>
+    <string name="ok">Ok</string>
+    <string name="scan_qr_code">Scan qr code</string>
+    <string name="please_face">Please face the camera to the qr code you want to scan so we can process your information.</string>
+    <string name="enter_your_information">Enter your information</string>
+    <string name="_962" translatable="false">+962</string>
+    <string name="read_all_the_info">read all the information below in order to make sure that accident information is valid .. if it\'s not click NO and submit new report.</string>
+    <string name="accident_images">Accident Images</string>
+    <string name="thank_you_your_information_has_been_recorded">Thank you .. your information has been recorded successfully.</string>
+    <string name="car_license">Car License</string>
+    <string name="edit">Edit</string>
+    <string name="instructions">Instructions</string>
+    <string name="inst_1">1) Take a picture from a distance of 20 meters from the accident</string>
+    <string name="inst_2">2) Take a picture of the crash site in the participating cars</string>
+    <string name="inst_3">3) Take a picture of the street you are in</string>
+    <string name="inst_4">4) Take a picture of the intersections in the street</string>
+    <string name="inst_5">5) Take pictures of participating cars from all directions</string>
+    <string name="adding_new_particioant">Adding new participant please wait..</string>
+    <string name="adding_paritcipant_error">Error happened while adding participant</string>
+    <string name="full_name_error">Full name should be 4 parts!</string>
+    <string name="full_name_error_2">One of the parts is not correct!</string>
+    <string name="lisince_number_error">License number should be at least 8 numbers!</string>
+    <string name="date_error_1">"Type your date as this(DD/MM/YYYY) or "</string>
+    <string name="date_error_2">this(DD-MM-YYYY)</string>
+    <string name="id_number_error">Id number should be at least 10 numbers</string>
+    <string name="phone_number_error">Phone number should be at least 9 numbers</string>
+    <string name="gender_error">Please your select gender</string>
+    <string name="please_wait">Please wait..</string>
+    <string name="reporter_name">Reporter name: </string>
+    <string name="area_name_2">Area name: </string>
+    <string name="street_name_2">Street name: </string>
+    <string name="nunber_of_cars_2">Number of cars: </string>
+    <string name="code_scanned">Code scanned successfully please wait..</string>
+    <string name="code_scan_error">Code you scanned don\'t belong to any accident please try again</string>
+    <string name="uploading_images">Uploading accident images please wait..</string>
+    <string name="max_images_msg">You can\'t select more than 15 image</string>
+    <string name="min_images_msg">Minimum number of images is 5</string>
+    <string name="warinig_2">Are you sure?</string>
+    <string name="warnin_3">You can\'t change accident images after this step, please make sure that you uploaded the right images.</string>
+    <string name="uploading_driver_images">Uploading Driver license image please wait..</string>
+    <string name="images_uploaded_successfully">Image uploaded successfully</string>
+    <string name="upload_images_error">Failed to upload image please try again..</string>
+    <string name="location_error">Please wait we are getting your location</string>
+    <string name="number_of_cars_error">Please specify number of cars</string>
+    <string name="area_name_error">Please specify area name</string>
+    <string name="street_name_error">Please specify street name</string>
+    <string name="unknow_location">Unknown Location</string>
+    <string name="uploading_car_lic_image">Uploading Car\'s license image please wait..</string>
+    <string name="upload_car_lic_error">Please upload car license image!</string>
+    <string name="car_code_error">Please fill car code!</string>
+    <string name="car_number_error">Please fill car number!</string>
+    <string name="genetrate_code_error">Error while generating the code!</string>
+    <string name="full_name_2">Full name: </string>
+    <string name="licence_number_2">License number: </string>
+    <string name="date_of_birth_2">Date of birth: </string>
+    <string name="id_number_2">ID number: </string>
+    <string name="gender_2">Gender: </string>
+    <string name="accident_location_2">Accident location: </string>
+    <string name="go">Go</string>
+    <string name="accident_time">Accident time: </string>
+    <string name="uploading_driver_licence">Uploading driver licence</string>
+    <string name="uploading_car_licence">Uploading car licence image</string>
+    <string name="uploading_accident_images">Uploading accident images</string>
+    <string name="uploading_your_request">Uploading your report</string>
+    <string name="uploading_will_start">Uploading will start soon we will notify you once uploading is done.</string>
+    <string name="uploading_image_number">Uploading image number :</string>
+    <string name="request_sent">Report sent</string>
+    <string name="your_request_has_sent">Your report has been sent ... click here and ask participants to scan QR code from application</string>
+    <string name="sorry_error_happen">Sorry error happened please try again</string>
+    <string name="error_while_uploading">Error while uploading</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="yesNo">
+        <item>Yes</item>
+        <item>Nope</item>
+    </string-array>
+
+    <string-array name="cars">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>
