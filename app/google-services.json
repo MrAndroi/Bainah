@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "450288547856",
+    "project_id": "bainah-a611a",
+    "storage_bucket": "bainah-a611a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450288547856:android:5a06340de29bdde602f295",
+        "android_client_info": {
+          "package_name": "com.yarmouk.bainah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450288547856-gm29j985od8qi1rqjbce1pj7dmbafpts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABQeeQc4hy35YoxG3eQVjy9TpVpPv2bGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450288547856-gm29j985od8qi1rqjbce1pj7dmbafpts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

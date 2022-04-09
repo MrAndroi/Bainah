@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentHome">
+
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.yarmouk.bainah.ui.fragments.FragmentHome"
+        tools:layout="@layout/home_fragment"
+        android:label="FragmentHome" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        tools:layout="@layout/settings_fragment"
+        android:name="com.yarmouk.bainah.ui.fragments.SettingsFragment"
+        android:label="SettingsFragment" />
+</navigation>
