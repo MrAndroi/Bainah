@@ -6,8 +6,11 @@ import android.os.Build
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupWithNavController
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 import com.yarmouk.bainah.R
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_main.*
@@ -24,6 +27,23 @@ class MainActivity : AppCompatActivity() , EasyPermissions.PermissionCallbacks{
 
         //Setup bottom navigation view with navigation controller
         bottomNavigationView.setupWithNavController(navHostFragment.findNavController())
+
+
+
+        if(Firebase.auth.currentUser != null){
+            val navHostFragment = navHostFragment as NavHostFragment
+            val inflater = navHostFragment.navController.navInflater
+            val graph = inflater.inflate(R.navigation.nav_graph)
+            graph.startDestination = R.id.fragmentHome
+            navHostFragment.navController.graph = graph
+        }
+        else{
+            val navHostFragment = navHostFragment as NavHostFragment
+            val inflater = navHostFragment.navController.navInflater
+            val graph = inflater.inflate(R.navigation.nav_graph)
+            graph.startDestination = R.id.loginFragment
+            navHostFragment.navController.graph = graph
+        }
 
         //This code will show/hide bottom navigation view based oon current screen
         //BottomNavigationView will be shown in home fragment and settings fragment only
