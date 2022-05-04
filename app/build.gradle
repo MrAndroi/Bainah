@@ -142,5 +142,8 @@ dependencies {
     //pretty time
     implementation 'org.ocpsoft.prettytime:prettytime:4.0.4.Final'
 
+    //progress dialog
+    implementation 'com.github.d-max:spots-dialog:1.1@aar'
+
 
 }

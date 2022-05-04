@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.yarmouk.bainah.R
 import com.yarmouk.bainah.adapter.ServiceAdapter
 import com.yarmouk.bainah.models.Service
@@ -33,11 +34,11 @@ class FragmentHome:Fragment(R.layout.home_fragment) {
             when(serviceName){
                 //User click Go in submit report item
                 getString(R.string.submit_a_report) ->{
-
+                    findNavController().navigate(R.id.action_fragmentHome_to_submitReportFragment)
                 }
                 //User click Go in Scan qr code item
                 getString(R.string.sca_code) ->{
-
+                    findNavController().navigate(R.id.action_fragmentHome_to_scarQrFragment)
                 }
                 //User click Go in Emergency numbers item
                 getString(R.string.emergent_nums) ->{

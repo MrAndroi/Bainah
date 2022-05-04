@@ -139,8 +139,7 @@
                 android:id="@+id/etStreetName"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="@string/street"
-                 />
+                android:hint="@string/street" />
 
         </com.google.android.material.textfield.TextInputLayout>
 

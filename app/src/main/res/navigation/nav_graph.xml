@@ -10,6 +10,12 @@
         android:name="com.yarmouk.bainah.ui.fragments.FragmentHome"
         tools:layout="@layout/home_fragment"
         android:label="FragmentHome" >
+        <action
+            android:id="@+id/action_fragmentHome_to_submitReportFragment"
+            app:destination="@id/submitReportFragment" />
+        <action
+            android:id="@+id/action_fragmentHome_to_scarQrFragment"
+            app:destination="@id/scarQrFragment" />
     </fragment>
 
     <fragment
@@ -49,5 +55,20 @@
             app:popUpToInclusive="true" />
     </fragment>
 
+    <fragment
+        android:id="@+id/submitReportFragment"
+        tools:layout="@layout/submit_report_fragment"
+        android:name="com.yarmouk.bainah.ui.fragments.submitNewReport.SubmitReportFragment"
+        android:label="SubmitReportFragment" />
+    <fragment
+        android:id="@+id/scarQrFragment"
+        tools:layout="@layout/scan_qr_fragment"
+        android:name="com.yarmouk.bainah.ui.fragments.ScarQrFragment"
+        android:label="ScarQrFragment" />
+    <fragment
+        android:id="@+id/qrCodeFragment"
+        tools:layout="@layout/qr_code_fragment"
+        android:name="com.yarmouk.bainah.ui.fragments.submitNewReport.viewpagerFragments.QrCodeFragment"
+        android:label="QrCodeFragment" />
 
 </navigation>

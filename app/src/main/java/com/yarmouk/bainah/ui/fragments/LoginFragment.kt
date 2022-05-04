@@ -43,7 +43,7 @@ class LoginFragment:Fragment(R.layout.login_fragment) {
 
         //Handle the click on registration button in the design
         btnGoToRegister.setOnClickListener {
-            //Navigate to login fragment
+            //Navigate to registration fragment
             findNavController().navigate(LoginFragmentDirections.actionLoginFragmentToRegisterFragment())
 
         }

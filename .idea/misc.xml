@@ -3,25 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../.gradle/caches/transforms-3/df7bfbeb4b6731f066ea427f4d5160a7/transformed/appcompat-1.2.0/res/layout/support_simple_spinner_dropdown_item.xml" value="0.276268115942029" />
+        <entry key="../../Library/Android/sdk/platforms/android-30/data/res/layout/activity_list_item.xml" value="0.276268115942029" />
+        <entry key="../../Library/Android/sdk/platforms/android-30/data/res/layout/simple_list_item_1.xml" value="0.276268115942029" />
         <entry key="app/src/main/res/drawable/back_icon.xml" value="0.1605" />
         <entry key="app/src/main/res/drawable/bottom_nav_selector.xml" value="0.1605" />
         <entry key="app/src/main/res/drawable/logout_icon.xml" value="0.16" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/change_language_dialog.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/code_scaned_dialog.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/confirm_request_dialog.xml" value="0.1" />
         <entry key="app/src/main/res/layout/home_fragment.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/image_preview_item.xml" value="0.2776268115942029" />
-        <entry key="app/src/main/res/layout/info_four_fragment.xml" value="0.2776268115942029" />
-        <entry key="app/src/main/res/layout/info_one_fragment.xml" value="0.2776268115942029" />
-        <entry key="app/src/main/res/layout/info_three_fragment.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/info_four_fragment.xml" value="0.12082262210796915" />
+        <entry key="app/src/main/res/layout/info_one_fragment.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/info_three_fragment.xml" value="0.17028985507246377" />
         <entry key="app/src/main/res/layout/info_two_fragment.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/login_fragment.xml" value="0.276268115942029" />
         <entry key="app/src/main/res/layout/qr_code_fragment.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/register_fragment.xml" value="0.276268115942029" />
-        <entry key="app/src/main/res/layout/report_inforamtion_fragment.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/report_inforamtion_fragment.xml" value="0.16666666666666666" />
         <entry key="app/src/main/res/layout/scan_qr_fragment.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/service_item.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/settings_fragment.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/submit_report_fragment.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/take_images_instructions_dialog.xml" value="0.1" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.36041666666666666" />
       </map>
     </option>
