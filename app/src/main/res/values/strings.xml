@@ -183,6 +183,7 @@
     <string name="here_you_can_find_all_requested_reports_from_users_have_a_nice_day">Here you can find all requested reports from users ... have a nice day</string>
     <string name="hello_officer">Hello, Officer</string>
     <string name="emergency_numbers">Emergency Numbers</string>
+    <string name="logout">Logout</string>
     <string-array name="gender">
         <item>Male</item>
         <item>Female</item>

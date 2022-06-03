@@ -191,4 +191,5 @@
     <string name="here_you_can_find_all_requested_reports_from_users_have_a_nice_day">هنا يمكنك ايجاد جميع الطلبات المرسله ... نتمنى لك يوم جيد</string>
     <string name="hello_officer">مرحباً ايها الضابط</string>
     <string name="emergency_numbers">ارقام الطوارئ</string>
+    <string name="logout">تسجيل خروج</string>
 </resources>
