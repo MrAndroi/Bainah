@@ -13,6 +13,16 @@
         app:constraint_referenced_ids="view3,view4,textView16,btnGoToRegister,btnLogin,tvForgetPassword,constraintLayout"
         />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/bainah_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvForgetPassword" />
+
     <View
         android:id="@+id/view3"
         android:layout_width="0dp"
@@ -42,7 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:text="Dont have account?"
+        android:text="@string/dont_have_account"
         android:textColor="#000"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/btnGoToRegister"
@@ -54,15 +64,15 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:text="Login"
+        android:text="@string/login"
         android:textAllCaps="false"
         app:iconGravity="textStart"
         app:iconSize="20dp"
         app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
         app:layout_constraintStart_toStartOf="@+id/constraintLayout"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnGoToRegister"
@@ -72,7 +82,7 @@
         android:clickable="true"
         android:elevation="10dp"
         android:focusable="true"
-        android:text="Create new account"
+        android:text="@string/create_new_account"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#fff"
@@ -86,32 +96,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Login"
-        android:textColor="#000000"
+        android:text="@string/login"
+        android:textColor="#919191"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    
+
     <LinearLayout
         android:id="@+id/constraintLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:layout_margin="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvForgetPassword">
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email"
-            app:startIconDrawable="@drawable/email_icon"
-            >
+            android:hint="@string/email"
+            app:startIconDrawable="@drawable/email_icon">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etEmail"
@@ -124,14 +134,14 @@
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            app:boxStrokeWidth="1dp"
-            app:boxStrokeColor="@color/primaryColor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
             android:layout_marginTop="8dp"
-            app:startIconDrawable="@drawable/key_icon"
-            app:passwordToggleEnabled="true">
+            android:hint="@string/password"
+            app:boxStrokeColor="@color/primaryColor"
+            app:boxStrokeWidth="1dp"
+            app:passwordToggleEnabled="true"
+            app:startIconDrawable="@drawable/key_icon">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etPassword"
@@ -145,6 +155,32 @@
 
     </LinearLayout>
 
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+        <RadioButton
+            android:id="@+id/rbPolice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/police"
+            android:layout_marginEnd="50dp"
+            />
+
+        <RadioButton
+            android:id="@+id/rbCitizen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/citizen" />
+
+    </RadioGroup>
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyle"

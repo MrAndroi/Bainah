@@ -1,13 +1,10 @@
 package com.yarmouk.bainah.api
 
-import com.yarmouk.bainah.models.Participant
-import com.yarmouk.bainah.models.Request
-import com.yarmouk.bainah.models.RequestGetResponse
-import com.yarmouk.bainah.models.RequestResponse
+import com.yarmouk.bainah.models.*
 import retrofit2.Response
 import retrofit2.http.*
 
-interface BalaghApi {
+interface BainahApi {
 
     @POST("requests/postRequeset")
     suspend fun postNewRequest(
@@ -24,4 +21,7 @@ interface BalaghApi {
         @Path("requestId") requestId:String,
         @Body participant: Participant
     ):Response<RequestResponse>
+
+    @GET("requests")
+    suspend fun getAllReports():Response<ReportsResponse>
 }

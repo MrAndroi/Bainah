@@ -117,7 +117,8 @@ class ReportInformationFragment:Fragment(R.layout.report_inforamtion_fragment) {
                     imagesList.add(it.toString())
                 }
 
-                val data =  Data.Builder().putStringArray("list",imagesList.toTypedArray())
+                val data =  Data.Builder()
+                    .putStringArray("list",imagesList.toTypedArray())
                 data.putString("report", Gson().toJson(mainViewModel.request.value!!))
                 val uploadWorkRequest: WorkRequest =
                     OneTimeWorkRequestBuilder<UploadReportWorker>()

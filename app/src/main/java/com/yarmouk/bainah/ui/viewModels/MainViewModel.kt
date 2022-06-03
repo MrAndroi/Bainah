@@ -51,6 +51,21 @@ class MainViewModel @Inject constructor(private val repo: Repository)
     val accidentImagesUploaded:LiveData<Boolean>
         get() = _accidentImagesUploaded
 
+    private val _reportsResponse = MutableLiveData<Resource<ReportsResponse>>()
+    val reportsResponse:LiveData<Resource<ReportsResponse>>
+        get() = _reportsResponse
+
+    fun getAllReports() = viewModelScope.launch {
+        _reportsResponse.postValue(Resource.loading(null))
+        val response = repo.getAllReports()
+        if(response.isSuccessful){
+            _reportsResponse.postValue(Resource.success(response.body()))
+        }
+        else{
+            _requestGetResponse.postValue(Resource.error(response.message(),null))
+        }
+    }
+
     fun getRequest(requestId: String) = viewModelScope.launch {
         _requestGetResponse.postValue(Resource.loading(null))
         val response = repo.getRequest(requestId)

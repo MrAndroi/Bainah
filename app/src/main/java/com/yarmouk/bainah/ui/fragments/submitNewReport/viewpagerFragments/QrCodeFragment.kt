@@ -41,7 +41,6 @@ class QrCodeFragment:Fragment(R.layout.qr_code_fragment) {
             when(it.status){
                 Status.SUCCESS ->{
                     generateQrCode(it.data?.requestID!!)
-                    tvReqId.text = it.data.requestID
                 }
                 Status.ERROR ->{
                     showSnackBar(getString(R.string.genetrate_code_error),R.color.red)

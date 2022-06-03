@@ -42,7 +42,7 @@ class FragmentHome:Fragment(R.layout.home_fragment) {
                 }
                 //User click Go in Emergency numbers item
                 getString(R.string.emergent_nums) ->{
-
+                    findNavController().navigate(R.id.action_fragmentHome_to_emergencyFragment)
                 }
             }
         }
@@ -55,7 +55,7 @@ class FragmentHome:Fragment(R.layout.home_fragment) {
             serviceName = getString(R.string.submit_a_report),
             serviceOverView = getString(R.string.submit_mew),
             serviceBackground = R.drawable.item_two_gradient,
-            serviceImage = "https://s1.gifyu.com/images/removal.ai_tmp-60b49871b080b.png"
+            serviceImage = "https://s8.gifyu.com/images/car-accident-with-drivers-man-woman-vector-illustration_357257-790-removebg-preview.png"
         )
 
         //Define second service (Scan qr code)
@@ -63,7 +63,7 @@ class FragmentHome:Fragment(R.layout.home_fragment) {
             getString(R.string.sca_code),
             getString(R.string.submit_mew),
             R.drawable.item_one_gradient,
-            "https://s3.gifyu.com/images/scan-removebg-preview.png"
+            "https://s8.gifyu.com/images/pngtree-people-use-smartphone-to-code-scanning-for-payment-and-everything-design-png-image_2158404-removebg-preview.png"
         )
 
         //Define third service (Emergent numbers)
@@ -71,7 +71,7 @@ class FragmentHome:Fragment(R.layout.home_fragment) {
             getString(R.string.emergent_nums),
             getString(R.string.submit_mew),
             R.drawable.item_three_gradient,
-            "https://s1.gifyu.com/images/461837-PHE8FQ-316-removebg-preview.png"
+            "https://s8.gifyu.com/images/5741212-removebg-preview.png"
         )
 
         //Add services to services list

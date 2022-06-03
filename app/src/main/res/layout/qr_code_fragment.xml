@@ -50,15 +50,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/tvReqId"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        tools:text="42-02394-2930492"
-        app:layout_constraintBottom_toTopOf="@+id/btnFinish"
-        app:layout_constraintEnd_toEndOf="@+id/btnFinish"
-        app:layout_constraintStart_toStartOf="@+id/btnFinish" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

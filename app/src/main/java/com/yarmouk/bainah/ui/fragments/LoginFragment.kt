@@ -5,6 +5,7 @@ import android.util.Patterns
 import android.view.View
 import androidx.activity.OnBackPressedCallback
 import androidx.core.content.ContextCompat
+import androidx.core.view.get
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.snackbar.Snackbar
@@ -102,7 +103,13 @@ class LoginFragment:Fragment(R.layout.login_fragment) {
 
     private fun updateUi(currentUser: FirebaseUser?){
         if(currentUser != null) {
-            findNavController().navigate(R.id.action_loginFragment_to_fragmentHome)
+            if(rbPolice.isChecked){
+                findNavController().navigate(R.id.action_loginFragment_to_policeDashboardFragment)
+            }
+            else{
+                findNavController().navigate(R.id.action_loginFragment_to_fragmentHome)
+            }
+
         }
         else{
             showErrorSnackBar("Please login or sign up")

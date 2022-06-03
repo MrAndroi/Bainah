@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_fragmentHome_to_scarQrFragment"
             app:destination="@id/scarQrFragment" />
+        <action
+            android:id="@+id/action_fragmentHome_to_emergencyFragment"
+            app:destination="@id/emergencyFragment" />
     </fragment>
 
     <fragment
@@ -42,6 +45,9 @@
         <action
             android:id="@+id/action_loginFragment_to_registerFragment"
             app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_policeDashboardFragment"
+            app:destination="@id/policeDashboardFragment" />
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
@@ -70,5 +76,15 @@
         tools:layout="@layout/qr_code_fragment"
         android:name="com.yarmouk.bainah.ui.fragments.submitNewReport.viewpagerFragments.QrCodeFragment"
         android:label="QrCodeFragment" />
+    <fragment
+        android:id="@+id/policeDashboardFragment"
+        tools:layout="@layout/police_dashborad_fragment"
+        android:name="com.yarmouk.bainah.ui.fragments.PoliceDashboardFragment"
+        android:label="PoliceDashboardFragment" />
+    <fragment
+        android:id="@+id/emergencyFragment"
+        tools:layout="@layout/fragment_emergancy"
+        android:name="com.yarmouk.bainah.ui.fragments.EmergencyFragment"
+        android:label="EmergencyFragment" />
 
 </navigation>

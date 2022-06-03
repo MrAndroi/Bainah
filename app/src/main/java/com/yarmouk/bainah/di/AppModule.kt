@@ -2,10 +2,8 @@ package com.yarmouk.bainah.di
 
 import android.content.Context
 import android.content.SharedPreferences
-import com.yarmouk.bainah.api.BalaghApi
-import com.yarmouk.bainah.api.NotificationApi
+import com.yarmouk.bainah.api.BainahApi
 import com.yarmouk.bainah.others.Constans.BASE_URL
-import com.yarmouk.bainah.others.Constans.FIREBASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -37,22 +35,13 @@ object AppModule {
             .addInterceptor(HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY))
             .build()
 
-    @Provides
-    @Singleton
-    fun provideNotificationApi(client: OkHttpClient): NotificationApi = Retrofit.Builder()
-        .baseUrl(FIREBASE_URL)
-        .client(client)
-        .addConverterFactory(GsonConverterFactory.create())
-        .build()
-        .create(NotificationApi::class.java)
-
     @Singleton
     @Provides
-    fun provideBalaghApi(client: OkHttpClient): BalaghApi = Retrofit.Builder()
+    fun provideBalaghApi(client: OkHttpClient): BainahApi = Retrofit.Builder()
         .baseUrl(BASE_URL)
         .client(client)
         .addConverterFactory(GsonConverterFactory.create())
         .build()
-        .create(BalaghApi::class.java)
+        .create(BainahApi::class.java)
 
 }

@@ -145,5 +145,7 @@ dependencies {
     //progress dialog
     implementation 'com.github.d-max:spots-dialog:1.1@aar'
 
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+
 
 }

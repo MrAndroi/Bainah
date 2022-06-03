@@ -171,4 +171,24 @@
         <item>نعم</item>
         <item>كلا</item>
     </string-array>
+    <string name="login">تسجيل الدخول</string>
+    <string name="create_new_account">انشئ حساب جديد</string>
+    <string name="password">كلمة  السر</string>
+    <string name="email">البريد الاكتروني</string>
+    <string name="police">شرطي</string>
+    <string name="citizen">مواطن</string>
+    <string name="dont_have_account">هل تملك حساب؟</string>
+    <string name="register">تسجيل</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="already_have_an_account">لديك حساب بالفعل؟</string>
+    <string name="reporter_name2">اسم المرسل:</string>
+    <string name="reporter_phone">رقم المرسل:</string>
+    <string name="reporter_id">الهوية</string>
+    <string name="call">اتصل</string>
+    <string name="reject">رفض</string>
+    <string name="send_to_court">ارسل للمحكمة</string>
+    <string name="approve">موافقه</string>
+    <string name="here_you_can_find_all_requested_reports_from_users_have_a_nice_day">هنا يمكنك ايجاد جميع الطلبات المرسله ... نتمنى لك يوم جيد</string>
+    <string name="hello_officer">مرحباً ايها الضابط</string>
+    <string name="emergency_numbers">ارقام الطوارئ</string>
 </resources>

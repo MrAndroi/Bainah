@@ -12,6 +12,8 @@
     <color name="colorPrimaryLightPix">#80075e54</color>
     <color name="ted_image_picker_primary">#715696</color>
     <color name="ted_image_picker_primary_pressed">#715696</color>
-    <color name="red">#FF0000</color>
+    <color name="red">#BB0000</color>
     <color name="green">#008806</color>
+    <color name="hint">#6C6C6C</color>
+    <color name="primaryColorShade">#33715696</color>
 </resources>

@@ -85,12 +85,6 @@ constructor(@Assisted context: Context,@Assisted params: WorkerParameters,privat
                                                 applicationContext,
                                                 response.body()?.requestID
                                             )
-                                            sendNotification(
-                                                Notification(
-                                                    Message("New report","New report received!"),
-                                                    "/topics/Police"
-                                                )
-                                            )
                                         }
                                         else{
                                             makeStatusNotification(
@@ -118,20 +112,6 @@ constructor(@Assisted context: Context,@Assisted params: WorkerParameters,privat
                         applicationContext)
                 }
 
-        }
-    }
-
-    private suspend fun sendNotification(notification: Notification) {
-        try{
-            val response = repo.postNotification(notification)
-            if(response.isSuccessful){
-                Log.e("msg",response.message())
-            }else{
-                Log.e("msg",response.message())
-            }
-        }
-        catch (e:Exception){
-            Log.e("error",e.message.toString())
         }
     }
 

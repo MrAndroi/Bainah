@@ -23,6 +23,8 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
+
+//https://github.com/yuriy-budiyev/code-scanner
 @AndroidEntryPoint
 class ScarQrFragment:Fragment(R.layout.scan_qr_fragment) {
 
